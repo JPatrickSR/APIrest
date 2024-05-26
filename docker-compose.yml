@@ -1,0 +1,6 @@
+﻿services:
+  ds:
+    image: ds
+    build:
+      context: .
+      dockerfile: DS/Dockerfile
